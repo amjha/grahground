@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Header, Button, Icon } from 'semantic-ui-react'
 
@@ -27,7 +26,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div className="App">
+      <div>
         <span className="header"><h2>Graphground</h2></span>
         <section id="main_buttons">
           <div id="graphs_button" className="graphs_button">
